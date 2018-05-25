@@ -12,6 +12,7 @@
 		6FA7C9E220B8BCA2001433CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FA7C9E020B8BCA2001433CD /* Main.storyboard */; };
 		6FA7C9E420B8BCA4001433CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FA7C9E320B8BCA4001433CD /* Assets.xcassets */; };
 		6FA7C9E720B8BCA4001433CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FA7C9E520B8BCA4001433CD /* LaunchScreen.storyboard */; };
+		6FA7C9EF20BA0EAB001433CD /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6FA7C9EE20BA0EAB001433CD /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		6FA7C9E320B8BCA4001433CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6FA7C9E620B8BCA4001433CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6FA7C9E820B8BCA4001433CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FA7C9EE20BA0EAB001433CD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		6FA7C9D020B8BCA2001433CD = {
 			isa = PBXGroup;
 			children = (
+				6FA7C9EE20BA0EAB001433CD /* README.md */,
 				6FA7C9DB20B8BCA2001433CD /* Secret Swift */,
 				6FA7C9DA20B8BCA2001433CD /* Products */,
 			);
@@ -124,6 +127,7 @@
 			files = (
 				6FA7C9E720B8BCA4001433CD /* LaunchScreen.storyboard in Resources */,
 				6FA7C9E420B8BCA4001433CD /* Assets.xcassets in Resources */,
+				6FA7C9EF20BA0EAB001433CD /* README.md in Resources */,
 				6FA7C9E220B8BCA2001433CD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,12 +285,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9JK6DF95Y7;
 				INFOPLIST_FILE = "Secret Swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.forrestwparker.Secret-Swift";
+				PRODUCT_BUNDLE_IDENTIFIER = com.forrestwparker.asdf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -298,12 +303,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9JK6DF95Y7;
 				INFOPLIST_FILE = "Secret Swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.forrestwparker.Secret-Swift";
+				PRODUCT_BUNDLE_IDENTIFIER = com.forrestwparker.asdf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
