@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F041D0B20BB1E3600036DA1 /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F041D0920BB1E3500036DA1 /* KeychainWrapper.swift */; };
+		6F041D0C20BB1E3600036DA1 /* KeychainItemAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F041D0A20BB1E3500036DA1 /* KeychainItemAccessibility.swift */; };
 		6FA7C9DD20B8BCA2001433CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA7C9DC20B8BCA2001433CD /* AppDelegate.swift */; };
 		6FA7C9DF20B8BCA2001433CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA7C9DE20B8BCA2001433CD /* ViewController.swift */; };
 		6FA7C9E220B8BCA2001433CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FA7C9E020B8BCA2001433CD /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6F041D0920BB1E3500036DA1 /* KeychainWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
+		6F041D0A20BB1E3500036DA1 /* KeychainItemAccessibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainItemAccessibility.swift; sourceTree = "<group>"; };
 		6FA7C9D920B8BCA2001433CD /* Secret Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Secret Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FA7C9DC20B8BCA2001433CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6FA7C9DE20B8BCA2001433CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 				6FA7C9DC20B8BCA2001433CD /* AppDelegate.swift */,
 				6FA7C9DE20B8BCA2001433CD /* ViewController.swift */,
 				6FA7C9E020B8BCA2001433CD /* Main.storyboard */,
+				6F041D0A20BB1E3500036DA1 /* KeychainItemAccessibility.swift */,
+				6F041D0920BB1E3500036DA1 /* KeychainWrapper.swift */,
 				6FA7C9E320B8BCA4001433CD /* Assets.xcassets */,
 				6FA7C9E520B8BCA4001433CD /* LaunchScreen.storyboard */,
 				6FA7C9E820B8BCA4001433CD /* Info.plist */,
@@ -139,6 +145,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F041D0B20BB1E3600036DA1 /* KeychainWrapper.swift in Sources */,
+				6F041D0C20BB1E3600036DA1 /* KeychainItemAccessibility.swift in Sources */,
 				6FA7C9DF20B8BCA2001433CD /* ViewController.swift in Sources */,
 				6FA7C9DD20B8BCA2001433CD /* AppDelegate.swift in Sources */,
 			);
